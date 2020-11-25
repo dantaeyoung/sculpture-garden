@@ -7,6 +7,7 @@ import store from '@/store'
 
 import Nav from "@/components/Nav.vue";
 import Intro from "@/components/Intro.vue";
+import Page from "@/components/Page.vue";
 import HelloWorld from "@/components/HelloWorld.vue";
 
 Vue.use(VueRouter);
@@ -24,6 +25,14 @@ const routes = [
     components: {
       nav: Nav,
       view: Intro,
+    }
+  },
+  {
+    path: "/page/:page_name",
+    name: "Page",
+    components: {
+      nav: Nav,
+      view: Page,
     }
   },
   {

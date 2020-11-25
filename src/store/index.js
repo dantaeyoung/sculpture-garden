@@ -1,55 +1,33 @@
 /* eslint-disable */
 
-const process_api_key = process.env.VUE_APP_AIRTABLE_API_KEY;
-const airtable_table = process.env.VUE_APP_AIRTABLE_TABLE;
-const airtable_base = process.env.VUE_APP_AIRTABLE_BASE;
-const airtable_view = process.env.VUE_APP_AIRTABLE_VIEW;
-
 import Vue from "vue";
 import Vuex from "vuex";
+import bookshelf from '../../library/everything.json';
 
 Vue.use(Vuex);
 
-function loadAirtableData(callback) {
-  var Airtable = require("airtable");
-  var base = new Airtable({ apiKey: process_api_key }).base(airtable_base);
-  let records = [];
-
-  base(airtable_table)
-    .select({
-      view: airtable_view
-    })
-    .eachPage(
-      function page(partialRecords, fetchNextPage) {
-        records = [...records, ...partialRecords];
-        fetchNextPage();
-      },
-      function done(err) {
-//        console.log("Fetched Records", records);
-        if (err) {
-          console.error(err);
-          return;
-        }
-        callback(records);
-      }
-    );
+function loadData(callback) {
+  callback(bookshelf)
 }
 
 
 export default new Vuex.Store({
   state: {
-    records: [],
+    bookshelf: {},
     hasLoaded: false,
   },
   getters: {
-    records(state) {
-      return state.records;
+    bookshelf(state) {
+      return state.bookshelf;
     },
   },
   mutations: {
-		setRecords(state, r) {
-			state.records = r;
-		},
+    setBookshelf(state, bookshelf) {
+      state.bookshelf = bookshelf;
+    },
+    setLoaded(state) {
+      state.hasLoaded = true;
+    }
   },
   actions: {
     fetchData(context) {
@@ -58,10 +36,8 @@ export default new Vuex.Store({
       }
     },
     fetchRecords(context) {
-      loadAirtableData(function(records) {
-        var records = records.filter(w => w.fields["Name"]);
-        context.commit("setRecords", records);
-      });
+      context.commit("setBookshelf", bookshelf);
+      context.commit('setLoaded')
     },
   }
 });

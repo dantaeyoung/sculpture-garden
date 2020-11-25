@@ -9,11 +9,6 @@
 
 /* eslint-disable */
 
-const process_api_key = process.env.VUE_APP_AIRTABLE_API_KEY;
-const airtable_table = process.env.VUE_APP_AIRTABLE_TABLE;
-const airtable_base = process.env.VUE_APP_AIRTABLE_BASE;
-const airtable_view = process.env.VUE_APP_AIRTABLE_VIEW ;
-
 export default {
   name: "App",
   components: {
@@ -23,7 +18,7 @@ export default {
     };
   },
   created() {
-    this.$store.dispatch("fetchData");
+    this.$store.dispatch('fetchData');
   },
   methods: {
   }
@@ -43,18 +38,6 @@ body {
   color: black;
   margin-top: 60px;
   padding: 1em;
-}
-
-@media only screen and (max-width: 1020px) {
-  #app {
-    display: none;
-  }
-
-  #mobile {
-    color: green;
-    display: block !important;
-    font-size: 3em;
-  }
 }
 
 

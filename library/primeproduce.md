@@ -4,7 +4,7 @@ Tags:
   - "test"
   - "log"
 -----------------------------
-This is a test about Prime PRoduce. 
+This is a test about Prime Produce. 
 
 Or is it???
 
@@ -12,7 +12,7 @@ Or is it???
 
 let's [[[test]]]
 
-Here's a list
+Here's a list,
  - one
  - two
  - three

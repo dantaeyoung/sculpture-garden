@@ -2,20 +2,13 @@
   "name": "Selfsite",
   "version": "0.1.0",
   "private": true,
-  "watch": {
-    "compile_library": {
-      "patterns": [
-        "**"
-      ],
-      "extensions": "md"
-    }
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "compile_library": "cd library && python CONVERT_library_to_everythingjson.py",
-    "watch": "npm-watch"
+    "watch:compile_library": "nodemon -e md -x \"cd library && python CONVERT_library_to_everythingjson.py\"",
+    "watch": "npm run serve & npm run watch:compile_library"
   },
   "dependencies": {
     "airtable": "^0.10.1",

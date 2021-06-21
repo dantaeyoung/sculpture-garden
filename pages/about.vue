@@ -1,0 +1,184 @@
+<template>
+  <div id="sections">
+    <section id="myself">
+          <img src="img/logo_dtl.svg" id="logo">
+                <br>
+                <br>
+                Hi there. I am an assemblage of:
+                <ul>
+                  <li>cooperatives / spaces / technologies</li>
+                  <li>learnings / teachings / communities</li>
+                  <li>systems / heuristics / practices</li>
+                  <li>architecture / pedagogy / software</li>
+                  <li>families / friends / societies / cultures</li>
+                </ul>
+
+                I am a learner, teacher, spatial designer, technologist, and artist, creating design tools, architectural spaces, and social collectives. 
+                
+                <br><br>I am interested in how our environments and relations change the way we think, feel, collaborate, and play together. I am especially excited about creating and maintaining inclusive and just spaces, organizations, and learning/working structures that are intentional about power, agency, and care.<br><br>
+                
+                I teach at <a href="https://www.arch.columbia.edu/">Columbia University GSAPP</a>, am a founding member of <a href="https://www.primeproduce.coop/">Prime Produce</a> (an intentional community for social good), <a href="https://www.instagram.com/softsurplus/">Soft Surplus</a> (a community space for making and learning near each other), and the <a href="http://cybernetics.social/">Cybernetics Library</a>, an artist-run library focused on socio-technological systems.!
+    </section id="myself">
+
+   <dots class="height200"></dots>
+
+    <section id="news">
+        <div class="title">Recent/Upcoming News</div>
+
+        <div class="spacedlist parse_this_as_markdown">
+- I spoke at "[Roundable Discussion: COMMONS](https://www.instagram.com/p/CHbKmXRsLc5/)", a panel at the Yale School Of Architecture, hosted by the M.E.D Working Group for Anti-Racism, alongside Lauren Hudson, Sunny Iyer, and Rachel Valinsky. Nov 11, 2020
+- I spoke at Tei Carpenter's "By Other Means" seminar at the University of Toronto on Soft Surplus, Prime Produce, and alternative practices. Oct 16, 2020.
+- I spoke at Columbia GSAPP as part of the [Techno-Critical Assemblies](https://www.arch.columbia.edu/events/2026-dan-taeyoung-and-jia-zhang) event series, organized by Andres Jaque and Xiaoxi Chen. Oct 15, 2020. 
+- I launched the [GSAPP Skill Trails](https://skilltrails.gsapp.org/#/map). Jun 26, 2020.
+- I wrote a short polemic for [Avery Shorts](http://www.averyshorts.com/) called [WORMspace](https://us17.campaign-archive.com/?u=0026e8adfb06086a83c6cd300&id=830c83c494): <i>WORMspace is what happens when you turn the residential lease and "normal wear and tear" into an aesthetic. It is an aesthetic of landlord power.</i>. Nov 26, 2019.
+- I spoke at Neba Noyan's class, "Data Is Storytelling", on growing communities, spaces, and spatial programming languages. Oct 16, 2019.
+- The Cybernetics Library held an installation and workshop at the Tate Modern as part of the [Higher Resolution with Hyphen-Labs workshop series](https://www.tate.org.uk/whats-on/tate-modern/tate-exchange/workshop/higher-resolution) at the Tate Exchange. September 27-29, 2019.
+- Intentional Estate Agency, a collaboration with Tei Carpenter, Jesse LeCavalier, and Chris Woebken, was part of the [Oslo Architecture Triennale: The Architecture of Degrowth](http://oslotriennale.no/en/om-oat-2019). Sep 26, 2019.
+- The Cybernetics Library had a booth and held a workshop at the [NY Art Book Fair](https://nyabf2019.printedmatterartbookfairs.org/Programs) on Sunday, September 22nd, at 2pm. Invited by Printed Matter.
+- I wrote [Tools of Collective Intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence), published by Urban Omnibus, on invitation by Shannon Mattern. Sep 4, 2019.
+- I did a short Micro-residency at [Dynamicland](https://dynamicland.org/)! Aug 7 - Aug 14, 2019.
+- I spoke on a panel on the future of work for the <a href="https://a-d-o.com/event/out-of-office-the-future-of-work-evolving-the-9-5/2019-07-18">Out of Office exhibition</a> at A/D/O, curated by Lexi Tsien and Talitha Liu of <a href="https://soft-firm.com/">Soft-Firm</a>, alongside Florian Idenburg and Kate Thatcher, moderated by Joseph White. July 18, 2019. 
+- I was a speaker at [Software For Artists Day](https://pioneerworks.org/programs/software-for-artists-day-5/), Pioneer Works. June 15, 2019. 
+- An interview with Willa Köerner was published in The Creative Independent: [On growing a cooperative like you’d grow a garden](https://thecreativeindependent.com/people/designer-architect-teacher-and-learner-dan-taeyoung-on-growing-a-cooperative-like-youd-grow-a-garden/). June 11, 2019.
+- I was a resident as part of [The Strange Foundation's Decelerator residency program](https://thestrange.foundation/spring-2019-cohort). May 19 - May 27, 2019.
+- I spoke at the [Living a Digital Life: Objects, Environments, Power](https://www.living-a-digital-life.com/) conference, hosted at the University of Michigan's Taubman College of Architecture + Urban Planning. May 10, 2019.
+- The Cybernetics Library hosted a workshop called [Cybernetic Marginalia](http://thefebruary.school/), as part of February School, a temporary school-as-intervention created by MIT ACT students. 
+- I taught Ethicsware, a class at The School for Poetic Computation, as part of the [Code Societies Winter 2019](https://sfpc.io/codesocieties-winter-19/) session, organized by Melanie Hoff.
+        </div>
+    </section>
+
+    <dots class="height200"></dots>
+
+    <section id="thoughts">
+
+        <div class="title">Things I am thinking about lately</div>
+        (as of 2019-10)<br><br>
+
+        <a href="https://twitter.com/dantaeyoung/status/1185970849423208449">What is the relationship between racism and aesthetics</a>? Doesn't aesthetics or some sort of visual taste always have a form of exclusion that either aids, or is structured by racism? The gated community, the idea of 'purity', the <i>dangerous, dirty, unkempt</i> 'other' -- the racial other is always <i>unaesthetic, disorganized, distasteful</i>. Is there an aesthetics that is untouched by racism and power? What does just pedagogy around representation and aesethetics look like?<br /><br/>
+<!--
+	Design is often about planning to arrive at an ideal future scenario -- an ideal aesthetics, an ideal construction, an ideal space, an ideal result. Sometimes, design and planning is the start of broadening possibilities, like designing a raised garden bed for an unknown myriad of future plants. Sometimes, design and planning is the narrowing down to a point, when we would like spaces to be built like our construction documents, paper pages to be printed like our screens, travel itineraries to mesh with a 8:42pm flight time. Is it possible to find an aesthetics that can accept broadening possibilities, without falling into the trap of being "modular", "movable", "open source"?<br/><br/> -->
+
+        Is an aesthetics ever possible without a power that enforces it? Is aesthetics itself ever NOT a manifestation of power in terms of form/vision/taste?<br/><br/>
+
+				Feeling like the Other can be a good sign. It is (at least) a sign that I am being myself, when I am in white spaces. Maybe the problem is not the othering of people; it is the "Us"ing of people, the definition of a boundary in which "we" exist, the declaration of <a href="https://www.wired.co.uk/article/virtual-segregation-narrows-our-real-life-relationships">homophily</a> and sharedness that builds gated communities.<br /><br />
+
+				Physical space is a <a href="https://dynamicland.org/">computational medium</a>. Physical space computes things. The sound that a doorbell makes in the space is a social/spatial computation that balances proximity and attention.<br/><br/>
+
+				We are our environments. Our cognition is distributed in the environment. We are the relationships and spaces that surround us. We think through our friends and collaborators and our spaces. If we drew a closed loop around our thought in space, most of it would be outside of our bodies.<br/><br/> 
+
+				A culture of 'professionalism' is predicated on a denial of gender, race, culture, the body, and a denial of (soft, hard) power structures.
+				Let's avoid 'professionalism culture' and find healthier ways of thoughtful, insightful action by being in our bodies and acknowledging them. <br /> <br/>
+
+				(or in other words: 'professionalism culture' comes from a hierarchy of effort, an axis of unvalued labor to valued labor, or a (horrible, flawed) <a href="https://en.wikipedia.org/wiki/The_Human_Condition_(book)">labor/work/action</a> hierarchy.
+				A taxonomy of labor/work/action or personal/professional is maintained by power & aesthetics.
+				Instead: there is no politics without an acknowledgment of our bodies; the personal is political, even though professionalism culture may not want it to be.
+				Our environments should support and acknowledge this. If not; it's not worth it.)<br/>
+				
+
+
+				<br/ ><br/>
+
+				Texts I'm thinking about / (re)reading lately:
+				<ul>
+					<li>김혜진,<b> 딸에 대하여</b></li>
+					<li>Adrienne Maree Brown, <a href="https://www.akpress.org/emergentstrategy.html"><i>Emergent Strategy</i></a> and <a href="https://www.akpress.org/pleasure-activism.html">Pleasure Activism</i></a></li>
+					<li>Joy Lisi Franklin, <a href="http://www.hup.harvard.edu/catalog.php?isbn=9780674970977"><i>A People’s History of Computing in the United States</i></a></li>
+					<li>Wendy Chun, <a href="https://www.brown.edu/Departments/MCM/people/chun/papers/software.pdf"><i>On Software, or the Persistence of Visual Knowledge</i></a></li>
+					<li>Jo Freeman, <a href="https://www.jofreeman.com/joreen/tyranny.htm"><i>The Tyranny of Structurelessness</i></a></li>
+					<li>Édouard Glissant, <a href="files/Glissant_For_Opacity.pdf"><i>For Opacity</i></a>, from Poetics of Relation</li>
+					<li>Fred Turner, <i><a href="https://www.press.uchicago.edu/ucp/books/book/chicago/F/bo3773600.html">From Counterculture to Cyberculture</a></i></li>
+					<li>Kim Stanley Robinson, <i><a href="https://buellcenter.columbia.edu/research-programs/power-infrastructure-america/new-york-2140-kim-stanley-robinson">New York 2140</a></i></li>
+					<li>Edward Hutchins, <i><a href="https://mitpress.mit.edu/books/cognition-wild">Cognition in the Wild</a></i></li>
+					<li>Ivan Illich, <i><a href="https://en.wikipedia.org/wiki/Deschooling_Society">Deschooling Society</a></i></li>
+					<li>Molly Wright Steenson, <i><a href="https://mitpress.mit.edu/books/architectural-intelligence">Architectural Intelligence</a></i></li>
+					<li>Kim Stanley Robinson, <i><a href="https://libcom.org/library/mars-trilogy-kim-stanley-robinson">The Mars Trilogy</a></i></li>
+					<li>Sarah Schulman, <i><a href="http://www.arsenalpulp.com/bookinfo.php?index=449">Conflict is Not Abuse</a></i></li>
+					<li>Jane Bennett, <i><a href="files/Jane_Bennet__Vibrant_Matter.pdf">Vibrant Matter</a></i></li>
+					<li>Gordon Pask, <i><a href="https://are.na/block/1352930">The Architectural Relevance of Cybernetics</a></i></li>
+					<li>Bruno Latour, <i><a href="https://are.na/block/1352931">The Berlin Key</a></i></li>
+					<li>James Carse, <i>Finite and Infinite Games</i></li>
+					<li>Jodi Dean, <i><a href="files/Jodi_Dean_Communicative_Capitalism.pdf">Communicative Capitalism</a></i></li>
+					<li>Bruno Latour, <i><a href="files/Bruno_Latour_Reassembling_the_social.pdf">Reassembling The Social</a></i></li>
+					<li>Michael Polanyi, <i><a href="files/Polanyi_Michael_The_Tacit_Dimension.pdf">The Tacit Dimension</a></i></li>
+				</ul>
+
+                More things I am interested in: <a href="https://www.are.na/dan-taeyoung/channels?sort=random">Are.na</a>
+     </section id="thoughts">
+
+     <dots class="height200"></dots>
+
+    <section id="names">
+        <div class="title">On work and projects</div>
+        <br><br>
+
+        I teach, or have taught at 
+        <a href="https://www.arch.columbia.edu/">Columbia University GSAPP</a>, 
+        <a href="https://www.newschool.edu/parsons/mfa-transdisciplinary-design/">Parsons School of Design</a>,  
+        <a href="https://sfpc.io/">The School for Poetic Computation</a>, 
+        and <a href="http://www.tsinghua.edu.cn/publish/ardeen/1685/index.html">Tsinghua University</a>. 
+
+        <br>
+        <br>
+
+            Past clients and collaborators include:
+        <a href="https://www.stephaniedinkins.com/">Stephanie Dinkins</a>, 
+        <a href="https://sidewalklabs.com/">Sidewalk Labs</a>,
+        <a href="http://www.superbright.me/">Superbright</a>, 
+        <a href="https://thenewinquiry.com/simparty/">The New Inquiry</a>, 
+        <a href="https://www.vera.org/">Vera Institute of Justice</a>, 
+        <a href="http://pioneerworks.org/">Pioneer Works</a>, 
+        <a href="http://designguggenheimhelsinki.org/en/exhibition/">The Solomon R. Guggenheim Museum</a>, 
+        <a href="http://storefrontnews.org/">Storefront for Art and Architecture</a>, 
+        <a href="http://www.spatialinformationdesignlab.org/">Spatial Information Design Lab, </a>
+        <a href="http://www.newinc.org/gsapp/">NEW INC/GSAPP Incubator</a>
+
+              <br/><br/> 
+              
+        My work has been mentioned/published in 
+        <a href="https://urbanomnibus.net/2019/09/tools-of-collective-intelligence/">Urban Omnibus</a>, 
+        <a href="https://thecreativeindependent.com/people/designer-architect-teacher-and-learner-dan-taeyoung-on-growing-a-cooperative-like-youd-grow-a-garden/">The Creative Independent</a>,
+        <a href="https://nathanschneider.info/books/everything-for-everyone/">Everything for Everyone: The Radical Tradition that Is Shaping the Next Economy</a>,
+        <a href="http://www.bloomsbury.com/us/the-politics-of-parametricism-9781472581662/">The Politics of Parametricism</a>,
+        <a href="http://projectjournal.org/">Project Journal</a>, 
+        <a href="https://www.newyorker.com/business/currency/the-new-guilded-age">The New Yorker</a>, 
+        The Observer, 
+        The Awl, 
+        Vice, 
+        The New York Times, 
+        among other publications.
+
+        <br>
+        <br>
+        <br>
+        <b>Things I do</b>: Collective decision-making facilitation, critical & technological curriculum design, architectural design, construction management, commercial real estate renovation, physical prototyping, digital fabrication, software development, web development, physical computing, data visualization.
+		<br>
+		<br>
+        <b>Things I specialize in</b>: Starting & maintaining community-run organizations, designing and building/renovating physical spaces for collective organizations, creating cooperative decision-making tools and practices, developing custom computational design workflows & tools, structuring open & collaborative pedagogy practices, critical & technological curriculum design, poetic technology experiments and workshops. 
+        <br>
+        <br>
+        <b>Long-term (10+ yr) goals</b>: Collectively designing, building, running, growing a cooperative school -- an intentional learning institution. 
+        <br>
+    </section id="names">
+    <dots class="height100"></dots>
+    <section id="sayhello">
+        <div class="title">say hello</div><br><br>
+        If you'd like to collaborate, work together, or say hello, get in touch at <b>dan [at] dantaeyoung [dot] com</b> or through <a href="https://keybase.io/dantaeyoung">Keybase</a>. !
+    </section id="sayhello">
+
+
+</div>
+
+
+
+ </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

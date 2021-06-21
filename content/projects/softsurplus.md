@@ -11,8 +11,9 @@ publish: true
 ---
 soft surplus is a space for learning from each other by being near each other. soft surplus is a community, a space, a place.
 
-<div class="formal">started by Dan Taeyoung, Austin Wade Smith, Melanie Hoff.  
-community organizing, facilitation, collective decision-making, hosting events, commercial lease negotiation, liability, code of conduct, financial management</div>
+<div class="formal">Started by Dan Taeyoung, Austin Wade Smith, Melanie Hoff.
+
+Work: community organizing, facilitation, collective decision-making, hosting events, commercial lease negotiation, liability, code of conduct, financial management</div>
 
 \[members include …\]
 

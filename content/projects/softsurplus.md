@@ -3,6 +3,9 @@ title: Soft Surplus
 description: wwww
 images: []
 color: "#F5A623"
+tags:
+- space
+publish: true
 
 ---
 soft surplus is a space for learning from each other by being near each other. soft surplus is a community, a space, a place.

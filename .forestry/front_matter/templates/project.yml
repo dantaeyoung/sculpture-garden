@@ -26,4 +26,5 @@ fields:
   type: boolean
   label: Publish
 pages:
+- content/projects/cybernetics-library.md
 - content/projects/softsurplus.md

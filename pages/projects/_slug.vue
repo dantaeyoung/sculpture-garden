@@ -1,6 +1,6 @@
 <template>
   <project>
-    <h1>{{ project.title }}</h1>
+    <h1 :style="'color:' + project.color" >{{ project.title }}</h1>
     <p>{{ project.description }}</p>
     <nuxt-content :document="project" class="project" />
   </project>
@@ -33,6 +33,10 @@ img {
 }
 
 .formal {
+  font-family: 'Benne', serif;
+  position: relative;
+  padding: 10px;
   background-color: pink;
+  right: -100px;
 }
 </style>

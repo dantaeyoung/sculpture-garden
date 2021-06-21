@@ -37,6 +37,6 @@ img {
   position: relative;
   padding: 10px;
   background-color: pink;
-  right: -100px;
+  right: -200px;
 }
 </style>

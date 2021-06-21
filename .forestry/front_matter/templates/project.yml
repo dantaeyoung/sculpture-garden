@@ -8,3 +8,13 @@ fields:
 - type: text
   name: description
   label: description
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+- name: color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: color

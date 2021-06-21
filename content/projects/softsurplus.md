@@ -1,6 +1,6 @@
 ---
 title: Soft Surplus
-description: ok
+description: wwww
 
 ---
 soft surplus is a space for learning from each other by being near each other. soft surplus is a community, a space, a place.  

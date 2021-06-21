@@ -1,8 +1,7 @@
 ---
 title: Soft Surplus
 description: wwww
-images:
-- _ipx/images/catcat.png
+images: []
 color: "#F5A623"
 
 ---
@@ -13,7 +12,7 @@ community organizing, facilitation, collective decision-making, hosting events, 
 
 \[members include …\]
 
-![](/images/catcat.png)
+![](/_ipx/images/catcat.png)
 
 Soft Surplus is a place very dear to my heart. What does it mean to share space with each other, to make work, to support each other in our practice, to try to make decisions collectively, to be in community?
 

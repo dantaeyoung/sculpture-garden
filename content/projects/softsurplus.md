@@ -13,6 +13,8 @@ community organizing, facilitation, collective decision-making, hosting events, 
 
 \[members include …\]
 
+![](_ipx/images/catcat.png)
+
 Soft Surplus is a place very dear to my heart. What does it mean to share space with each other, to make work, to support each other in our practice, to try to make decisions collectively, to be in community?
 
 Soft surplus was born several times. Spaces are grown, not erected. The first time it was born with a conversation between Austin and I, looking for warehouses, talking about shared futures. The second time it was born on the dry lakebed of a desert, watching the sun set. Another time it was born when we grasped keys and set foot in the space after a beautiful brunch with friends.

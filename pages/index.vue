@@ -1,11 +1,11 @@
 <template>
   <div id="sections">
-    hey
  </div>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style>

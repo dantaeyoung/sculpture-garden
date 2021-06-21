@@ -1,0 +1,19 @@
+- I spoke at &quot;[Roundable Discussion: COMMONS](https://www.instagram.com/p/CHbKmXRsLc5/)&quot;, a panel at the Yale School Of Architecture, hosted by the M.E.D Working Group for Anti-Racism, alongside Lauren Hudson, Sunny Iyer, and Rachel Valinsky. Nov 11, 2020
+- I spoke at Tei Carpenter's &quot;By Other Means&quot; seminar at the University of Toronto on Soft Surplus, Prime Produce, and alternative practices. Oct 16, 2020.
+- I spoke at Columbia GSAPP as part of the [Techno-Critical Assemblies](https://www.arch.columbia.edu/events/2026-dan-taeyoung-and-jia-zhang) event series, organized by Andres Jaque and Xiaoxi Chen. Oct 15, 2020. 
+- I launched the [GSAPP Skill Trails](https://skilltrails.gsapp.org/#/map). Jun 26, 2020.
+- I wrote a short polemic for [Avery Shorts](http://www.averyshorts.com/) called [WORMspace](https://us17.campaign-archive.com/?u=0026e8adfb06086a83c6cd300&amp;id=830c83c494): <i>WORMspace is what happens when you turn the residential lease and &quot;normal wear and tear&quot; into an aesthetic. It is an aesthetic of landlord power.</i>. Nov 26, 2019.
+- I spoke at Neba Noyan's class, &quot;Data Is Storytelling&quot;, on growing communities, spaces, and spatial programming languages. Oct 16, 2019.
+- The Cybernetics Library held an installation and workshop at the Tate Modern as part of the [Higher Resolution with Hyphen-Labs workshop series](https://www.tate.org.uk/whats-on/tate-modern/tate-exchange/workshop/higher-resolution) at the Tate Exchange. September 27-29, 2019.
+- Intentional Estate Agency, a collaboration with Tei Carpenter, Jesse LeCavalier, and Chris Woebken, was part of the [Oslo Architecture Triennale: The Architecture of Degrowth](http://oslotriennale.no/en/om-oat-2019). Sep 26, 2019.
+- The Cybernetics Library had a booth and held a workshop at the [NY Art Book Fair](https://nyabf2019.printedmatterartbookfairs.org/Programs) on Sunday, September 22nd, at 2pm. Invited by Printed Matter.
+- I wrote [Tools of Collective Intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence), published by Urban Omnibus, on invitation by Shannon Mattern. Sep 4, 2019.
+- I did a short Micro-residency at [Dynamicland](https://dynamicland.org/)! Aug 7 - Aug 14, 2019.
+- I spoke on a panel on the future of work for the <a href="https://a-d-o.com/event/out-of-office-the-future-of-work-evolving-the-9-5/2019-07-18">Out of Office exhibition</a> at A/D/O, curated by Lexi Tsien and Talitha Liu of <a href="https://soft-firm.com/">Soft-Firm</a>, alongside Florian Idenburg and Kate Thatcher, moderated by Joseph White. July 18, 2019. 
+- I was a speaker at [Software For Artists Day](https://pioneerworks.org/programs/software-for-artists-day-5/), Pioneer Works. June 15, 2019. 
+- An interview with Willa Köerner was published in The Creative Independent: [On growing a cooperative like you’d grow a garden](https://thecreativeindependent.com/people/designer-architect-teacher-and-learner-dan-taeyoung-on-growing-a-cooperative-like-youd-grow-a-garden/). June 11, 2019.
+- I was a resident as part of [The Strange Foundation's Decelerator residency program](https://thestrange.foundation/spring-2019-cohort). May 19 - May 27, 2019.
+- I spoke at the [Living a Digital Life: Objects, Environments, Power](https://www.living-a-digital-life.com/) conference, hosted at the University of Michigan's Taubman College of Architecture + Urban Planning. May 10, 2019.
+- The Cybernetics Library hosted a workshop called [Cybernetic Marginalia](http://thefebruary.school/), as part of February School, a temporary school-as-intervention created by MIT ACT students. 
+- I taught Ethicsware, a class at The School for Poetic Computation, as part of the [Code Societies Winter 2019](https://sfpc.io/codesocieties-winter-19/) session, organized by Melanie Hoff.
+

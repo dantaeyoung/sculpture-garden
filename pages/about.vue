@@ -1,7 +1,7 @@
 <template>
   <div id="sections">
     <section id="myself">
-          <img src="img/logo_dtl.svg" id="logo">
+          <nuxt-img format="svg" src="/images/logo_dtl.svg" id="logo" />
                 <br>
                 <br>
                 Hi there. I am an assemblage of:
@@ -17,34 +17,14 @@
                 
                 <br><br>I am interested in how our environments and relations change the way we think, feel, collaborate, and play together. I am especially excited about creating and maintaining inclusive and just spaces, organizations, and learning/working structures that are intentional about power, agency, and care.<br><br>
                 
-                I teach at <a href="https://www.arch.columbia.edu/">Columbia University GSAPP</a>, am a founding member of <a href="https://www.primeproduce.coop/">Prime Produce</a> (an intentional community for social good), <a href="https://www.instagram.com/softsurplus/">Soft Surplus</a> (a community space for making and learning near each other), and the <a href="http://cybernetics.social/">Cybernetics Library</a>, an artist-run library focused on socio-technological systems.!
+                I teach at <a href="https://www.arch.columbia.edu/">Columbia University GSAPP</a>, am a founding member of <a href="https://www.primeproduce.coop/">Prime Produce</a> (an intentional community for social good), <a href="https://www.instagram.com/softsurplus/">Soft Surplus</a> (a community space for making and learning near each other), and the <a href="http://cybernetics.social/">Cybernetics Library</a>, an artist-run library focused on socio-technological systems.
     </section id="myself">
 
    <dots class="height200"></dots>
 
     <section id="news">
         <div class="title">Recent/Upcoming News</div>
-
-        <div class="spacedlist parse_this_as_markdown">
-- I spoke at "[Roundable Discussion: COMMONS](https://www.instagram.com/p/CHbKmXRsLc5/)", a panel at the Yale School Of Architecture, hosted by the M.E.D Working Group for Anti-Racism, alongside Lauren Hudson, Sunny Iyer, and Rachel Valinsky. Nov 11, 2020
-- I spoke at Tei Carpenter's "By Other Means" seminar at the University of Toronto on Soft Surplus, Prime Produce, and alternative practices. Oct 16, 2020.
-- I spoke at Columbia GSAPP as part of the [Techno-Critical Assemblies](https://www.arch.columbia.edu/events/2026-dan-taeyoung-and-jia-zhang) event series, organized by Andres Jaque and Xiaoxi Chen. Oct 15, 2020. 
-- I launched the [GSAPP Skill Trails](https://skilltrails.gsapp.org/#/map). Jun 26, 2020.
-- I wrote a short polemic for [Avery Shorts](http://www.averyshorts.com/) called [WORMspace](https://us17.campaign-archive.com/?u=0026e8adfb06086a83c6cd300&id=830c83c494): <i>WORMspace is what happens when you turn the residential lease and "normal wear and tear" into an aesthetic. It is an aesthetic of landlord power.</i>. Nov 26, 2019.
-- I spoke at Neba Noyan's class, "Data Is Storytelling", on growing communities, spaces, and spatial programming languages. Oct 16, 2019.
-- The Cybernetics Library held an installation and workshop at the Tate Modern as part of the [Higher Resolution with Hyphen-Labs workshop series](https://www.tate.org.uk/whats-on/tate-modern/tate-exchange/workshop/higher-resolution) at the Tate Exchange. September 27-29, 2019.
-- Intentional Estate Agency, a collaboration with Tei Carpenter, Jesse LeCavalier, and Chris Woebken, was part of the [Oslo Architecture Triennale: The Architecture of Degrowth](http://oslotriennale.no/en/om-oat-2019). Sep 26, 2019.
-- The Cybernetics Library had a booth and held a workshop at the [NY Art Book Fair](https://nyabf2019.printedmatterartbookfairs.org/Programs) on Sunday, September 22nd, at 2pm. Invited by Printed Matter.
-- I wrote [Tools of Collective Intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence), published by Urban Omnibus, on invitation by Shannon Mattern. Sep 4, 2019.
-- I did a short Micro-residency at [Dynamicland](https://dynamicland.org/)! Aug 7 - Aug 14, 2019.
-- I spoke on a panel on the future of work for the <a href="https://a-d-o.com/event/out-of-office-the-future-of-work-evolving-the-9-5/2019-07-18">Out of Office exhibition</a> at A/D/O, curated by Lexi Tsien and Talitha Liu of <a href="https://soft-firm.com/">Soft-Firm</a>, alongside Florian Idenburg and Kate Thatcher, moderated by Joseph White. July 18, 2019. 
-- I was a speaker at [Software For Artists Day](https://pioneerworks.org/programs/software-for-artists-day-5/), Pioneer Works. June 15, 2019. 
-- An interview with Willa Köerner was published in The Creative Independent: [On growing a cooperative like you’d grow a garden](https://thecreativeindependent.com/people/designer-architect-teacher-and-learner-dan-taeyoung-on-growing-a-cooperative-like-youd-grow-a-garden/). June 11, 2019.
-- I was a resident as part of [The Strange Foundation's Decelerator residency program](https://thestrange.foundation/spring-2019-cohort). May 19 - May 27, 2019.
-- I spoke at the [Living a Digital Life: Objects, Environments, Power](https://www.living-a-digital-life.com/) conference, hosted at the University of Michigan's Taubman College of Architecture + Urban Planning. May 10, 2019.
-- The Cybernetics Library hosted a workshop called [Cybernetic Marginalia](http://thefebruary.school/), as part of February School, a temporary school-as-intervention created by MIT ACT students. 
-- I taught Ethicsware, a class at The School for Poetic Computation, as part of the [Code Societies Winter 2019](https://sfpc.io/codesocieties-winter-19/) session, organized by Melanie Hoff.
-        </div>
+        <nuxt-content :document="news" />
     </section>
 
     <dots class="height200"></dots>
@@ -54,7 +34,7 @@
         <div class="title">Things I am thinking about lately</div>
         (as of 2019-10)<br><br>
 
-        <a href="https://twitter.com/dantaeyoung/status/1185970849423208449">What is the relationship between racism and aesthetics</a>? Doesn't aesthetics or some sort of visual taste always have a form of exclusion that either aids, or is structured by racism? The gated community, the idea of 'purity', the <i>dangerous, dirty, unkempt</i> 'other' -- the racial other is always <i>unaesthetic, disorganized, distasteful</i>. Is there an aesthetics that is untouched by racism and power? What does just pedagogy around representation and aesethetics look like?<br /><br/>
+        <a href="https://twitter.com/dantaeyoung/status/1185970849423208449">What is the relationship between racism and aesthetics</a>? Doesn't aesthetics or some sort of visual taste always have a form of exclusion that either aids, or is structured by racism? The gated community, the idea of 'purity', the <i>dangerous, dirty, unkempt</i> 'other' -- the racial other is always <i>unaesthetic, disorganized, distasteful</i>. Is there an aesthetics that is untouched by racism and power? What does just pedagogy around representation and aesthetics look like?<br /><br/>
 <!--
 	Design is often about planning to arrive at an ideal future scenario -- an ideal aesthetics, an ideal construction, an ideal space, an ideal result. Sometimes, design and planning is the start of broadening possibilities, like designing a raised garden bed for an unknown myriad of future plants. Sometimes, design and planning is the narrowing down to a point, when we would like spaces to be built like our construction documents, paper pages to be printed like our screens, travel itineraries to mesh with a 8:42pm flight time. Is it possible to find an aesthetics that can accept broadening possibilities, without falling into the trap of being "modular", "movable", "open source"?<br/><br/> -->
 
@@ -73,10 +53,7 @@
 				A taxonomy of labor/work/action or personal/professional is maintained by power & aesthetics.
 				Instead: there is no politics without an acknowledgment of our bodies; the personal is political, even though professionalism culture may not want it to be.
 				Our environments should support and acknowledge this. If not; it's not worth it.)<br/>
-				
-
-
-				<br/ ><br/>
+				<br/><br/>
 
 				Texts I'm thinking about / (re)reading lately:
 				<ul>
@@ -175,7 +152,13 @@
 
 <script>
 export default {
-
+    async asyncData({ $content, params }) {
+      const news = await $content('news')
+        .fetch()
+      const thoughts = await $content('thoughts')
+        .fetch()
+      return { news, thoughts }
+    }
 }
 </script>
 

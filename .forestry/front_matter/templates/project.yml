@@ -18,5 +18,12 @@ fields:
     required: false
     color_format: Hex
   label: color
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: publish
+  type: boolean
+  label: Publish
 pages:
 - content/projects/softsurplus.md

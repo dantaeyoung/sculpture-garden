@@ -3,7 +3,7 @@ tags: []
 title: Cybernetics Library
 description: ''
 images: []
-color: ''
+color: "#F523DE"
 publish: false
 
 ---

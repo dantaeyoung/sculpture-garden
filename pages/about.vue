@@ -162,6 +162,90 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+$desktop-width: 624px;
+
+@mixin phone {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+/* this is used:::
+@include phone { } 
+@include desktop { } 
+*/
+
+#sections {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+	  width: 500px;
+	  padding: 40px 40px 100px 40px;
+    padding-bottom: 100px;
+
+    @include phone {
+        font-size: 0.95em;
+        padding: 15px;
+        width: calc(100vw - 30px);
+    }
+
+}
+
+
+
+section {
+    //background-color: rgba(255, 255, 255, 0.7);
+/*    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    border-radius: 0px; */
+    width: calc(100% - 20px);
+    padding: 30px 10px;
+
+    @include phone {
+        line-height: 1.5em;
+    }
+
+    & .title {
+        font-size: 1.0em;
+        font-weight: bold;
+        background-color: #F3E940;
+        display: inline-block;
+        padding: 3px 5px;
+
+        .darkmode & {
+            color: #333;
+        }
+    }
+}
+
+
+ul {
+ padding-left: 20px;
+}
+
+dots {
+    &.height100 { height: 100px; }
+    &.height200 { height: 200px; }
+    &.height400 { height: 400px; }
+    width: calc(50% - 3px); 
+    border-right: 5px dotted rgba(55,55,55,0.4);
+
+    .darkmode & {
+        border-right: 5px dotted rgba(195,195,195,0.7);
+    }
+}
+
+//* { border: 1px dotted #AAA; margin: -1px;  }
+
+
 
 </style>

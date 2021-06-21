@@ -18,3 +18,5 @@ fields:
     required: false
     color_format: Hex
   label: color
+pages:
+- content/projects/softsurplus.md

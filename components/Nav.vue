@@ -19,6 +19,8 @@ a {
   flex-direction: row;
   align-items: middle;
   justify-content: center;
+  z-index: 1;
+  position: absolute;
 }
 
 

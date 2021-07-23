@@ -1,7 +1,7 @@
 <template>
   <div id="sections">
     <section id="myself">
-          <nuxt-img format="svg" src="/images/logo_dtl.svg" id="logo" />
+          <nuxt-img format="svg" src="/images/logo_dtl.svg" id="logo" @click="toggleDarkmode" />
                 <br>
                 <br>
                 Hi there. I am an assemblage of:
@@ -151,18 +151,6 @@
  </div>
 </template>
 
-<script>
-export default {
-    async asyncData({ $content, params }) {
-      const news = await $content('news')
-        .fetch()
-      const thoughts = await $content('thoughts')
-        .fetch()
-      return { news, thoughts }
-    }
-}
-</script>
-
 <style lang="scss" scoped>
 
 $desktop-width: 624px;
@@ -186,7 +174,6 @@ $desktop-width: 624px;
 
 #sections {
     position: relative;
-    z-index: 100;
     display: flex;
     flex-direction: column;
 	  width: 500px;
@@ -237,3 +224,30 @@ ul {
 
 
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      news: [],
+      thoughts: [],
+    };
+  },
+  async fetch() {
+    this.news = await this.$content('news').fetch()
+    this.thoughts = await this.$content('thoughts').fetch()
+  },
+  computed: {
+    darkmode() {
+      return this.$store.state.darkmode;
+    },
+  },
+  methods: {
+    toggleDarkmode() {
+      console.log("YUO");
+    //  this.$store.commit("setDarkmode", !this.darkmode);
+    },
+  },
+}
+
+</script>

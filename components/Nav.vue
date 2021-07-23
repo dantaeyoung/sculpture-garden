@@ -6,7 +6,7 @@
   </diV>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 a {
   margin-right: 10px;

@@ -5,6 +5,7 @@
 
 <script>
 export default {
+  middleware: "index-redirect"
 }
 </script>
 

@@ -142,6 +142,7 @@
         If you'd like to collaborate, work together, or say hello, get in touch at <b>dan [at] dantaeyoung [dot] com</b> or through <a href="https://keybase.io/dantaeyoung">Keybase</a>. !
     </section id="sayhello">
 
+    <gradients />
 
 </div>
 
@@ -162,7 +163,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 $desktop-width: 624px;
 
@@ -231,19 +232,6 @@ section {
 ul {
  padding-left: 20px;
 }
-
-dots {
-    &.height100 { height: 100px; }
-    &.height200 { height: 200px; }
-    &.height400 { height: 400px; }
-    width: calc(50% - 3px); 
-    border-right: 5px dotted rgba(55,55,55,0.4);
-
-    .darkmode & {
-        border-right: 5px dotted rgba(195,195,195,0.7);
-    }
-}
-
 //* { border: 1px dotted #AAA; margin: -1px;  }
 
 

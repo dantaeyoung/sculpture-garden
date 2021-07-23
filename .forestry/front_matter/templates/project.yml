@@ -25,6 +25,11 @@ fields:
 - name: publish
   type: boolean
   label: Publish
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
 pages:
 - content/projects/cybernetics-library.md
 - content/projects/cybernetics-library.md

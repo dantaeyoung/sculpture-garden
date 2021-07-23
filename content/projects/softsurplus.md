@@ -8,9 +8,10 @@ color: "#F5A623"
 tags:
 - space
 publish: true
+date: 2018 - current
 
 ---
- soft surplus is a community, a space, a place.
+soft surplus is a community, a space, a place.
 
 <div class="formal">Started by Dan Taeyoung, Austin Wade Smith, Melanie Hoff.
 

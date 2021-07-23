@@ -26,17 +26,19 @@ html, body {
 }
 
 body {
+  font-size: 0.95em;
 	font-family: 'Karla', helvetica, arial, sans-serif;
 	line-height: 1.5em;
 	color: #111;
 
 	background: linear-gradient(70deg, #f7f6ea 0%, #ffffff 100%) #F8F8F1;
-
-    &.darkmode {
-        color: #EEE !important;
-    }
-
 }
+
+.darkmode {
+    color: #EEE !important;
+}
+
+
 
 hr {
   border: 1px solid #AAA;
@@ -63,7 +65,4 @@ a {
 }
 
 
-#logo {
-    max-width: 180px;
-}
 
